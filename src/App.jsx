@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import CuidGenerator from './components/CuidGenerator'
 import IsoDateGenerator from './components/IsoDateGenerator'
+import SearchComponent from './components/SearchComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       <CuidGenerator />
       <IsoDateGenerator />
+      <SearchComponent />
     </>
   )
 }
