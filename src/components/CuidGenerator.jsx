@@ -38,7 +38,7 @@ const CuidGenerator = () => {
             {currentCuid && (
                 <>
                     <h2>{currentCuid}</h2>
-                    <QRCodeSVG value={currentCuid} size={64} />
+                    <QRCodeSVG value={currentCuid} size={128} />
                 </>
             )}
             <p>Press "r" to generate a CUID.</p>
